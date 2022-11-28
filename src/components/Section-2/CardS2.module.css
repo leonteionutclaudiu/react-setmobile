@@ -1,0 +1,24 @@
+.allCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card1 {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.card2 {
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.card3 {
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.card4 {
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+}
