@@ -1,24 +1,45 @@
 .allCards {
+  width: 75vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+
+  margin-bottom: 30px;
+  padding: 40px;
 }
 
 .card1 {
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+  padding-top: 30px;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
 }
 
 .card2 {
-  border-left: 1px solid grey;
-  border-bottom: 1px solid grey;
+  padding-top: 30px;
+  border-left: 1px solid #777;
+  border-bottom: 1px solid #777;
 }
 
 .card3 {
-  border-right: 1px solid grey;
-  border-top: 1px solid grey;
+  padding-top: 30px;
+  border-right: 1px solid #777;
+  border-top: 1px solid #777;
 }
 
 .card4 {
-  border-left: 1px solid grey;
-  border-top: 1px solid grey;
+  padding-top: 30px;
+  border-left: 1px solid #777;
+  border-top: 1px solid #777;
+}
+
+.icon {
+  width: fit-content;
+  color: white;
+  background-color: #0648a4;
+  font-size: 25px;
+  padding: 14px;
+  border-radius: 50%;
+  margin: 0 auto;
 }

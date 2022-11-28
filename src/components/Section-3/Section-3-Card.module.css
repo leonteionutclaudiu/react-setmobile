@@ -1,0 +1,21 @@
+.btn {
+  color: #777;
+  border: 1px solid #777;
+  background-color: white;
+}
+
+.title {
+  color: #646464;
+}
+
+.text {
+  font-size: 14px;
+  color: #777;
+  padding-bottom: 30px;
+}
+
+.card {
+  border: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 30px;
+}

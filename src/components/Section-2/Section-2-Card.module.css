@@ -1,0 +1,14 @@
+.title {
+  color: #646464;
+  border: 0;
+}
+
+.text {
+  font-size: 14px;
+  color: #777;
+  padding-bottom: 30px;
+}
+
+.card {
+  border: 0;
+}

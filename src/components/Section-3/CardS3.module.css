@@ -1,6 +1,13 @@
 .allCards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  width: 75vw;
+  gap: 10px;
+  margin: 0 auto;
+  border: none;
+}
+
+.section {
+  background-color: #f5f5f5;
 }

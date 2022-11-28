@@ -1,0 +1,23 @@
+.footer {
+  color: #777;
+  padding: 100px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footerTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.name {
+  text-decoration: underline;
+}

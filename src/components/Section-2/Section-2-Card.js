@@ -1,17 +1,18 @@
 import Card from 'react-bootstrap/Card';
+import classes from './Section-2-Card.module.css';
 
 function Section2Card({ title, text }) {
   return (
     <>
-      <Card>
+      <Card className={classes.card}>
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className={classes.title}>{title}</Card.Title>
         </Card.Body>
       </Card>
       <br />
-      <Card>
+      <Card className={classes.card}>
         <Card.Body>
-          <Card.Text>{text}</Card.Text>
+          <Card.Text className={classes.text}>{text}</Card.Text>
         </Card.Body>
       </Card>
     </>

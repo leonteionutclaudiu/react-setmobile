@@ -1,3 +1,38 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../../assets/images/water-unsplash-2.jpg');
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding-top: 80px;
+}
+
 .title {
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+}
+
+.register {
+  color: #777;
+  background-color: white;
+  font-size: 14px;
+  padding: 6px 45px;
+}
+
+.learnMore {
+  font-size: 14px;
+  background-color: transparent;
+  border-color: white;
+  padding: 6px 45px;
+  margin-left: 10px;
 }

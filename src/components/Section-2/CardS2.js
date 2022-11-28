@@ -42,24 +42,26 @@ const DATA = [
 
 function CardS2() {
   return (
-    <div className={classes.allCards}>
-      <div className={classes.card1}>
-        <div>{icon1}</div>
-        <Section2Card title={DATA[0].title} text={DATA[0].text} />
+    <section className={classes.section}>
+      <div className={classes.allCards}>
+        <div className={classes.card1}>
+          <div className={classes.icon}>{icon1}</div>
+          <Section2Card title={DATA[0].title} text={DATA[0].text} />
+        </div>
+        <div className={classes.card2}>
+          <div className={classes.icon}>{icon2}</div>
+          <Section2Card title={DATA[1].title} text={DATA[1].text} />
+        </div>
+        <div className={classes.card3}>
+          <div className={classes.icon}>{icon3}</div>
+          <Section2Card title={DATA[2].title} text={DATA[2].text} />
+        </div>
+        <div className={classes.card4}>
+          <div className={classes.icon}>{icon4}</div>
+          <Section2Card title={DATA[3].title} text={DATA[3].text} />
+        </div>
       </div>
-      <div className={classes.card2}>
-        <div>{icon2}</div>
-        <Section2Card title={DATA[1].title} text={DATA[1].text} />
-      </div>
-      <div className={classes.card3}>
-        <div>{icon3}</div>
-        <Section2Card title={DATA[2].title} text={DATA[2].text} />
-      </div>
-      <div className={classes.card4}>
-        <div>{icon4}</div>
-        <Section2Card title={DATA[3].title} text={DATA[3].text} />
-      </div>
-    </div>
+    </section>
   );
 }
 
