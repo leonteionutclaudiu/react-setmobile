@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #0648a4;
+  /* position: fixed; */
+}
+
+.navLink {
+  color: white;
+}
+
+.navLink:hover {
+  color: aqua;
+}
+
+.navigation {
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+}
+
+.login {
+  border: 1px solid white;
+  border-radius: 10%;
+  color: white;
+}
+
+.login:hover {
+  color: aqua;
+}
