@@ -1,7 +1,7 @@
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../../../assets/images/water-unsplash-2.jpg');
-  height: 60vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,4 +35,20 @@
   border-color: white;
   padding: 6px 45px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .register,
+  .learnMore {
+    width: 200px;
+    margin: 0;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 }

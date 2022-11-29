@@ -10,12 +10,15 @@ function HeroCard() {
         <Card.Text className={classes.subtitle}>
           Access online account of utilities companies.
         </Card.Text>
-        <Button className={classes.register} variant="primary">
-          Register
-        </Button>
-        <Button className={classes.learnMore} variant="primary">
-          Learn More
-        </Button>
+
+        <div className={classes.btns}>
+          <Button className={classes.register} variant="primary">
+            Register
+          </Button>
+          <Button className={classes.learnMore} variant="primary">
+            Learn More
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );

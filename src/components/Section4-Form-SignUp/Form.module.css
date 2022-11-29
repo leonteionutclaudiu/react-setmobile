@@ -30,3 +30,14 @@
 .text {
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 990px) {
+  .form {
+    padding: 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
